@@ -1,0 +1,331 @@
+
+    
+body            {min-width:300px;
+                 width:100%;
+                 margin:0px;
+                 height:1000px;}
+    
+.header         {position: relative;
+				 background-color:white;
+	             position:fixed;
+				 margin:0px;
+                 width:100%;
+				 top:0;
+				 left:0px;
+                 right:0px;
+                 height:39px;
+				 z-index:1;
+                 border-bottom: 1px #F0F0F0 solid;
+                     /*TAKEN*/
+				 box-shadow:0px 1px 5px #F0F0F0;} 
+    
+.log            {position: relative;
+                 text-decoration:none;
+                 color: black;
+				 text-align:center;
+                 left:30px;
+                 top:5px;
+	             font-size:22px;
+	             font-family:'Quicksand', sans-serif;}
+				 
+.nav             {position:relative;
+                  width:450px;
+				  left:450px;
+                  bottom:25px;}
+				  
+ul               {position: relative;
+                  margin:3px 0px;
+                  list-style-type:none;
+                  padding:0px 0px 20px 0px;}
+
+				
+li               {float:left;
+                  padding-left:25px;}
+				 
+li a             {left:30%;
+	              display:block;
+                  font-size:13px;
+				  text-align:center;
+				  text-decoration:none;
+				  padding:8px 16px;
+				  font-family: 'Raleway', sans-serif;
+				  color:black;}	 
+				  
+.men:hover       {background-color:black;
+                  color:white;}	
+
+div.e            {position:relative;
+                  min-width: 300px;
+                  margin:0px;
+                  width:100%;
+				  height:890px;
+				  top:30px;
+                  background-image:url(header.jpg);
+                  background-size: cover;
+                  background-position: center;
+                  background-repeat: no-repeat;
+                   /*TAKEN*/
+                  filter: grayscale(0%)brightness(90%)}
+ 
+.namcom			 {position: relative;
+                  width:100%;
+                  max-width: 900px;
+                  text-align: center;
+                  min-width:200px;
+                  margin:0px;
+			      bottom:650px;
+			      left:250px;
+			      font-size: 120pt;
+				  font-weight: lighter;
+				  font-family: 'Quicksand', sans-serif;
+                  color:white;
+                  /*TAKEN*/
+                  text-shadow:0px 150px 19px #224244;}					
+		    
+.maxw            {position:relative;
+	              max-width:980px;
+                  min-width:300px;
+                  height:1900px;
+                  margin:0px 0px 0px 0px;
+                  border-left:1px lightgray solid;
+                  border-right:1px lightgray solid;
+                  padding:0px 50px 0px 50px;
+                  top:-189px;
+				  left:13%;
+                  bottom: 100px;
+                  /*TAKEN*/
+                  box-shadow:3px 0px 15px #808080;
+                  background-color:white;}
+				 
+.our             {position:relative;
+                  top:60px;
+                  font-family: 'Raleway', sans-serif;
+                  font-weight: 600;
+                  text-align:center;
+                  padding:0px 20px 2px ;}
+
+.f               {position:relative;
+                  text-align:center;
+                  top:55px;
+	              font-family:'Raleway', sans-serif;}
+				 
+div.a		     {position:relative;
+                  left:0px;
+				  top:90px;
+				  padding:2px 2px;
+				  margin:0px;}
+				 
+.line            {position:relative;
+                  top:0px;
+                  text-align:left;}				  
+				 
+.who		     {position:relative;
+                  top:2px;
+                  font-family: 'Raleway', sans-serif;
+				  font-weight:bolder;
+				  font-size:30pt;
+                  text-align:left;
+                  margin:20px 0px;}	
+
+p.whoDis         {position:relative;
+	              text-align:left;
+	              font-family:'Raleway', sans-serif;}
+
+div.s            {position:relative;
+                  top:130px; 
+				  left:0px;
+				  bottom:40px;
+                  border:1px #339999 dashed;
+				  padding:10px;
+				  margin:0px;
+                  background-color:white;
+                  color:black;}
+				 
+.ourservice	     {text-align:center;
+                  margin: 10px;
+                  font-family: 'Raleway', sans-serif;
+				  font-weight:bolder;
+				  font-size:25pt;}	
+
+div.t           {position:relative;
+                 top:0px;
+			     bottom:2px;
+			     padding-left:40px;}
+			   
+table           {padding:10px;}
+			   
+th		        {padding:20px;
+                 font-family: 'Raleway', sans-serif;
+                 text-align: center;
+			     font-weight:700;}
+
+td              {padding:7px 30px;
+                 max-width:370px;
+                 text-align:left;
+			     font-family: 'Raleway', sans-serif;}
+			 
+.tli            {border-left:1px #339999 solid;}
+
+                 /*TAKEN*/
+              * {box-sizing:border-box}
+
+.mySlides       {display:none}
+
+                /* Slideshow container */
+.slideshow-container {
+                 max-width: 550px;
+                 position: relative;
+                 top:190px;  
+                 margin: auto;}
+    
+img             {border-radius:9px;
+                 border:1px gray solid;
+                 padding:2px;}
+
+                /* Caption text */
+.text           {color:black;
+                 font-size: 30px;
+                 font-family: 'Raleway', sans-serif;
+                 font-weight: 600;
+                 padding: 8px 12px;
+                 position: absolute;
+                 bottom: 100px;
+                 left:105px;
+                 width: 350px;
+                 height: 140px;
+                 text-align: center;
+                 background:#f2f2f2;
+                 background-color:hsla(8, 90%, 100%, 0.6);}
+
+.st             {font-size: 18px;
+                 font-weight:normal;}
+
+#a              {padding-top:30px;}
+#b              {padding-top:50px;} 
+#c              {padding-top:50px;}
+#d              {padding-top:50px;}
+#e              {padding-top:30px;}
+#f              {padding-top:20px;}
+#g              {padding-top:30px;}
+#h              {padding-top:20px;}
+
+               /* The dots/bullets/indicators */
+.dot            { position: relative;
+                  top:180px;
+                  height: 10px;
+                  width: 10px;
+                  margin: 0 2px;
+                  background-color: #bbb;
+                  border-radius: 50%;
+                  display: inline-block;
+                  transition: background-color 0.6s ease;}
+
+.active         {
+                  background-color: #717171;}
+
+               /* Fading animation */
+.fade           {
+                  -webkit-animation-name: fade;
+                  -webkit-animation-duration: 1.5s;
+                  animation-name: fade;
+                  animation-duration: 1.5s;}
+
+ @-webkit-keyframes fade {
+from                     {opacity: .4} 
+to                       {opacity: 1}
+                         }
+
+@keyframes fade {
+from            {opacity: .4} 
+to              {opacity: 1}
+                }
+
+               /* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+.text           {font-size: 11px}
+                }
+    /*...........end...........*/
+    
+div.n		    {position:relative;
+                 height:250px;
+                 right:0px;
+				 top:190px;
+				 padding:2px 2px;
+				 margin:0px;}
+				 
+.linee          {position:relative;
+                 top:30px;
+                 text-align:right;}				 
+
+.now		    {position:relative;
+                 top:20px;
+                 font-family: 'Raleway', sans-serif;
+				 font-weight:bolder;
+				 font-size:30pt;
+                 text-align:right;}	
+
+p.nowDis        {position:relative;
+	             text-align:right;
+	             font-family:'Raleway', sans-serif;}
+
+#bookSet        {position:relative;
+                 top:199px;
+				 left:0px;
+				 height:250px;
+				 width:835px;
+                 padding-left:20px;
+			     margin:0px 20px 40px;
+			     border:1px gray dashed;
+                 text-align: center;}
+				 
+h4              {font-family: 'Raleway', sans-serif;
+                 font-weight:900;}	
+
+#ind            {position:relative;
+	             max-width:240px;
+                 float:left;
+				 padding:0px 20px 0px 0px;
+                 border-right:1px gray dashed;
+				 margin:10px;
+				 font-family: 'Raleway', sans-serif;}
+				  
+#studygroup		{position:relative;
+	             max-width:250px;
+                 float:left;
+				 padding:0px 20px 0px 10px;
+                 border-right:1px gray dashed;
+				 margin:10px;
+				 font-family: 'Raleway', sans-serif;}	
+
+#workgroup      {position:relative;
+	             max-width:250px;
+                 float:left;
+				 padding:0px 0px 0px 10px;
+				 margin:10px;
+				 font-family: 'Raleway', sans-serif;}		
+           
+.setbutton		{background-color:#339999;
+                 border: none;
+                 color: white;
+                 padding: 8px 29px;
+                 text-align: center;
+				 text-decoration: none;
+				 display: inline-block;
+				 font-size: 13px;
+				 margin: 4px 2px;
+                  /*TAKEN*/
+				 cursor: pointer;
+				 font-family: 'Raleway', sans-serif;
+                 font-weight: 400;}
+    
+				  /*TAKEN*/
+.setbutton:hover {box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+                  color:white;}	
+				  
+.footer          {position: relative;
+                  height: 40px;
+                  border-top:1px lightgray solid;
+                  top:-100px;
+                  padding-left: 10px;
+                  font-family:'Raleway', sans-serif;
+                  font-size:9pt;}

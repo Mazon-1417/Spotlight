@@ -1,0 +1,155 @@
+
+
+.header         {position: relative;
+				 background-color:white;
+	             position:fixed;
+				 margin:0px;
+                 width:100%;
+				 top:0;
+				 left:0px;
+                 right:0px;
+                 height:39px;
+				 z-index:1;
+                 border-bottom: 1px #F0F0F0 solid;
+                  /*TAKEN*/
+				 box-shadow:0px 1px 5px #F0F0F0;
+				} 
+
+.log            {position: relative;
+                 text-decoration:none;
+                 color: black;
+				 text-align:center;
+                 left:30px;
+                 top:5px;
+	             font-size:22px;
+	             font-family: 'Quicksand', sans-serif;}
+				 
+.nav             {position:relative;
+                  width:450px;
+				  left:450px;
+                  bottom:25px;}
+				  
+ul              {position: relative;
+                 margin:3px 0px;
+                 list-style-type:none;
+                 padding:0px 0px 20px 0px;}
+				
+li              {float:left;
+                 padding-left:25px;}
+				 
+li a            {left:30%;
+	             display:block;
+                 font-size:13px;
+				 text-align:center;
+				 text-decoration:none;
+				 padding:8px 16px;
+				 font-family: 'Raleway', sans-serif;
+				 color:black;}	 
+				  
+.men:hover      {background-color:black;
+                 color:white;}		
+ 
+div.group       {position:absolute;
+                 text-align: right;
+                 width: 800px;
+                 height: 370px;
+                 top:27%;
+                 left:20%;
+                 border:1px black dashed; 
+                 padding-bottom:10px;}
+
+#contt          {font-family: 'Raleway', sans-serif;
+                 font-weight:600;
+                 text-align: center;
+                 font-size:26pt;
+                 margin:20px 2px 30px 2px; }
+
+table           {position: absolute;
+                 top:30%;
+                 width:300px;
+                 height:150px;
+                 left:13%;
+                 border-right:1px black solid}
+th              {font-family: 'Raleway', sans-serif;
+                 font-weight:500;
+                 padding-right:90px}
+
+#tl             {padding-top:30px;}
+
+#em             {padding-bottom:30px}
+img             {margin-right:9px;
+                 position: relative;
+                 bottom:-6px;}
+
+.name           {font-family: 'Raleway', sans-serif;
+                 margin:80px; }
+
+.n             {font-family: 'Raleway', sans-serif;
+                padding:5px;
+                border:1px gray solid;
+                border-radius:6px;
+                width:200px;}
+
+.mess          {font-family: 'Raleway', sans-serif;
+                position: relative;
+                bottom:74px;}
+
+.texta         {font-family: 'Raleway', sans-serif;
+                padding:5px;
+                border:1px gray solid;
+                /*TAKEN*/
+                border-radius:6px;
+                width:226px;
+                height:80px;
+                margin: 10px 54px 10px 0px} 
+
+.subm           {font-family: 'Raleway', sans-serif;
+                background-color:black;
+                margin-right:13%;
+                border: none;
+                color: white;
+                padding: 8px 29px;
+                text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 13px;
+                 /*TAKEN*/
+				cursor: pointer;}
+     
+                 /*TAKEN*/
+.subm:hover    {box-shadow: 0 5px 11px 0      rgba(0,0,0,0.24),0 16px 40px 0 rgba(0,0,0,0.19);}	
+
+.mes           {position:relative;
+                border:2px #5EA737 solid; 
+                border-radius:40px;
+                left:33%;
+                padding-bottom:7px;
+                padding-left: 9px;
+                margin:20px;
+                width:400px;
+                /*TAKEN*/
+                -webkit-animation: mymove 5s ; /* Safari 4.0 - 8.0 */
+                animation: mymove 5s ;
+                -webkit-animation-fill-mode: both;
+                animation-fill-mode: both;
+                -webkit-animation-timing-function: ease;
+                animation-timing-function: ease;}
+
+@-webkit-keyframes mymove {
+from           {top:570px;}
+to             {top:555px;}
+               }
+
+              /* Standard syntax */
+@keyframes mymove {
+from           {top:570px;}
+to             {top: 555px;}
+               }
+
+#m             {float:right;
+                right:60px;
+                margin-top:10px;
+                position: relative;
+                text-align: center;
+                font-family: 'Raleway', sans-serif;
+                color:#5EA737;}

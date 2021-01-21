@@ -1,0 +1,186 @@
+.header         {position: relative;
+				 background-color:white;
+	             position:fixed;
+				 margin:0px;
+                 width:100%;
+				 top:0;
+				 left:0px;
+                 right:0px;
+                 height:39px;
+				 z-index:1;
+                 border-bottom: 1px #F0F0F0 solid;
+                     /*TAKEN*/
+				 box-shadow:0px 1px 5px #F0F0F0;} 
+    
+.log            {position: relative;
+                 text-decoration:none;
+                 color: black;
+				 text-align:center;
+                 left:30px;
+                 top:5px;
+	             font-size:22px;
+	             font-family:'Quicksand', sans-serif;}
+				 
+.nav             {position:relative;
+                  width:450px;
+				  left:450px;
+                  bottom:25px;}
+				  
+ul               {position: relative;
+                  margin:3px 0px;
+                  list-style-type:none;
+                  padding:0px 0px 20px 0px;}
+
+				
+li               {float:left;
+                  padding-left:25px;}
+				 
+li a             {left:30%;
+	              display:block;
+                  font-size:13px;
+				  text-align:center;
+				  text-decoration:none;
+				  padding:8px 16px;
+				  font-family: 'Raleway', sans-serif;
+				  color:black;}	 
+				  
+.men:hover       {background-color:black;
+                  color:white;}	
+body              {height:470px;}
+
+div.n		    {position:relative;
+                 height:209px;
+                 right:0px;
+				 top:10px;
+				 padding:2px 0px;
+				 margin:0px;}
+				 
+.now		    {position:relative;
+                 top:0px;
+                 font-family: 'Raleway', sans-serif;
+				 font-weight:bolder;
+				 font-size:30pt;
+                 text-align:center;}	
+
+p.nowDis        {position:relative;
+	             text-align:center;
+                top:-30px;
+	             font-family:'Raleway', sans-serif;}
+
+.box            {position: relative;
+                 border:1px black dashed;
+                   width:950px; 
+                  height:598px;
+                 left:14%;
+                  top:-70px;
+                   margin: 0px;
+                  }
+
+.table          {position: relative;
+                  left:25%;
+                  margin:0px 20px;
+                  
+                     }
+
+#td              {margin: 2px;}
+
+#rs_int         {font-family: 'Raleway', sans-serif;
+                 }
+
+#date           {position: relative;
+                  text-align: center;
+                 font-family: 'Quicksand', sans-serif;
+                  padding:4px;
+    
+                  border:1px gray solid;
+                  border-radius:6px;
+                  width:150px;}
+
+.Tb               {position: relative;
+                    left:19%;
+                    border: 1px black dashed;
+                   padding: 10px;
+                   width: 600px;}
+
+#tdb              {text-align: center;
+                  
+                   font-family: 'Raleway', sans-serif;
+                    padding-right:15px}
+
+.tableR           {padding-left:20px ;
+                    
+                   padding-top:10px;
+                   }
+
+.tm                {font-family: 'Quicksand', sans-serif;}
+
+.dd                 {font-family: 'Quicksand', sans-serif;
+                        font-size:10pt;}
+
+
+.resev            {background-color:#339999 ;
+                   color: whitesmoke;
+                    font-family: 'Quicksand', sans-serif;}
+
+.empty            { background-color:lightgray;
+                    color: white;
+                     text-align: center;
+                    font-family: 'Quicksand', sans-serif;}
+
+
+.en               {position: relative;
+                  font-family: 'Raleway', sans-serif;
+                    left:34%}
+
+#en                { border:1px gray solid;
+                  border-radius:6px;
+                    width:60px;
+                   text-align:left;
+                 font-family: 'Quicksand', sans-serif;
+                  padding:4px;}
+
+.nam                 {position: relative;
+                    font-family: 'Raleway', sans-serif;
+                    left:240px;
+                     top:10px}
+
+.dis                {border:1px gray solid;
+                  border-radius:6px;
+                    width:150px;
+                   text-align:left;
+                 font-family: 'Quicksand', sans-serif;
+                  padding:4px;}
+
+.setbutton		{background-color:black;
+                 position: relative;
+                 left:80%;
+                 border: none;
+                 color: white;
+                 padding: 8px 29px;
+                 text-align: center;
+				 text-decoration: none;
+				 display: inline-block;
+                 top:-50px;
+				 font-size: 13px;
+				 margin: 20px 0px;
+                  /*TAKEN*/
+				 cursor: pointer;
+				 font-family: 'Raleway', sans-serif;
+                 font-weight: 400;}
+    
+				  /*TAKEN*/
+.setbutton:hover {box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+                  color:white;}	
+
+
+#m { 
+    right:15px;
+    
+    top:-65px;
+    position: relative;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color:#5EA737;
+}
+
+
