@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <meta charset="utf-8"/>
+     <link rel="stylesheet" href="stylepro.css" type="text/css"/>
+     <title>Spotlight | Home</title>
+  </head>
+  <body>
+  <!--nav bar -->
+       <div class="header">
+           <a href="index.html" class="log" >Spotlight</a>
+           <div class="nav">
+	           <ul>
+	              <li><a href="index.html" class="men"> Home </a></li>
+                  <li><a href="#serv" class="men"> Services </a></li>
+                  <li><a href="AboutUs.html" class="men"> About us </a></li>
+                  <li><a href="contactp.php" class="men"> contact </a></li>
+	           </ul>
+           </div>
+	   </div>
+
+       <div class="e"></div>
+           <p class="namcom">Spotlight</p>
+           <div class="maxw">
+	       <!--01-->
+               <div>
+                   <h3 class="our"> Spotlight Company </h3>
+                   <p class="f">Our company is dedicated to creating a variety of welcoming and inspiring physical and digital environments. These environments, which our customers, offer creative workspaces for individual and collaborative work/study and aim to promote well-being as well as provide the appropriate environment and stimulate innovative thinking through customer-centered design approaches.
+                   </p>
+               </div>
+
+	       <!--02-->
+               <div class="a">
+	               <p class="line">&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</p>
+                   <p class="who" id="serv">WHO WE ARE</p>
+                   <p class="whoDis"> spotlight company is a place that offers rooms<br> to hold business meetings, study groups and self study rooms.</p>
+               </div>
+
+	       <!--03-->
+               <div class="s"  >
+                   <p class="ourservice">OUR SERVICES</p>
+	               <div class="t">
+	               <table>
+	                     <tr>
+	                        <th>Computers and Wi-Fi</th>
+	                        <th>Accessibility</th>
+	                     </tr>
+	                     <tr>
+	                        <td> We provide computers with internet access, enabling you to browse the web in a peaceful environment.
+                            If you have a portable devise you may also be able to access free WIFI.</td>
+	                        <td class="tli">Individuals with disabilities who need more assistance may inquire with Spotlight accessibility    services also there are wheelchair accessible workstation and Study Rooms.</td>
+	                     </tr>
+	                     <tr>
+	                        <th>Print.Copy.Scan</th>
+	                        <th>Cafe Bar</th>
+	                     </tr>
+	                     <tr>
+	                        <td>We offers print, copy and scan room on each floor for a symbolic price.You can also send a pre-order to print your sheets for the work meeting/study group.</td>
+	                        <td class="tli">There is a rest place in the first floor which include a cafe bar are tables and chairs to set and take break from your work/study.
+	                     </tr>
+	              </table>
+	              </div>
+		       </div>
+                    <!--TAKEN-->
+               <div class="slideshow-container">
+                   <div class="mySlides fade">
+                       <img src="00.jpg" alt="reception" style="width:100%; height:335px">
+                       <div class="text" id="a">Reception<br><p class="st">Full time of services</p></div>
+                   </div>
+
+                   <div class="mySlides fade">
+                       <img src="01.jpg" alt="big group room" style="width:100%; height:335px">
+                       <div class="text" id="b">Big Group Room</div>
+                   </div>
+
+                   <div class="mySlides fade">
+                       <img src="02.jpg" alt="small group" style="width:100%; height:335px">
+                       <div class="text" id="c">Small Group Room</div>
+                   </div>
+
+
+                   <div class="mySlides fade">
+                       <img src="uu.jpg" alt="individuals room" style="width:100%; height:335px">
+                       <div class="text" id="d">Individuals Room</div>
+                   </div>
+
+                   <div class="mySlides fade">
+                       <img src="04.jpg" alt="lockers" style="width:100%; height:335px">
+                       <div class="text" id="e">Lockers<br><p class="st">Lockers for personal belongings</p></div>
+                   </div>
+
+                   <div class="mySlides fade">
+                       <img src="05.jpg" alt="lab" style="width:100%; height:335px">
+                       <div class="text" id="f">Computers Lape<br><p class="st">Done your research, presentations, assigmntes and projecs</p></div>
+                   </div>
+
+                   <div class="mySlides fade">
+                       <img src="06.jpg" alt="space" style="width:100%; height:335px">
+                       <div class="text" id="g">Space To Creative<br><p class="st">Think outside the box</p></div>
+                   </div>
+
+                   <div class="mySlides fade">
+                       <img src="07.jpg" alt="cafe" style="width:100%; height:335px">
+                       <div class="text" id="h">Cafe Bar<br><p class="st">Take a break and recharge your energy</p></div>
+                   </div>
+                </div>
+                <br>
+
+                <div style="text-align:center">
+                   <span class="dot"></span>
+                   <span class="dot"></span>
+                   <span class="dot"></span>
+                   <span class="dot"></span>
+                   <span class="dot"></span>
+                   <span class="dot"></span>
+                   <span class="dot"></span>
+                   <span class="dot"></span>
+                </div>
+
+                <script>
+                   var slideIndex = 0;
+                   showSlides();
+                   function showSlides() {
+                                          var i;
+                                          var slides = document.getElementsByClassName("mySlides");
+                                          var dots = document.getElementsByClassName("dot");
+                                          for (i = 0; i < slides.length; i++) {
+                                               slides[i].style.display = "none";
+                                               }
+                                          slideIndex++;
+                                          if (slideIndex > slides.length) {slideIndex = 1}
+                                          for (i = 0; i < dots.length; i++) {
+                                               dots[i].className = dots[i].className.replace(" active", "");
+                                               }
+                                          slides[slideIndex-1].style.display = "block";
+                                          dots[slideIndex-1].className += " active";
+                                          setTimeout(showSlides, 5000); // Change image every 5 seconds
+                                         }
+                </script>
+
+	            <!--04-->
+                <div class="n">
+	                <p class="linee">&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;&#9472;</p>
+                    <p class="now">BOOKING NOW</p>
+                    <p class="nowDis">Get your booking ready now by choosing your room<br>
+                     and the number of your group members. </p>
+                </div>
+
+                <!--05-->
+                <div id="bookSet">
+                    <div id="ind">
+                        <h4>INDIVIDUAL ROOM</h4>
+					    <p>Rooms that seat one to two people for private study/meeting and can be reserved for a maximum of four hours per group per day & it's cost 40 Rs per hour </p>
+                          <button class="setbutton" onclick="location.href='resevpage.php'">RESERVE</button>
+                    </div>
+                    <div id="studygroup">
+                        <h4> GROUP ROOM</h4>
+                        <p>Rooms that seat six to eight people for collaborative study/meeting and can be reserved for a maximum of four hours per group per day & it's cost 40 Rs per hour </p>
+                          <button class="setbutton">RESERVE</button>
+                    </div>
+                    <div id="workgroup">
+                        <h4>LARGE GROUP ROOM</h4>
+                        <p>Rooms that seat ten to twelve people for collaborative study/meeting and can be reserved for a maximum of four hours per group per day & it's cost 40 Rs per hour </p>
+                          <button class="setbutton">RESERVE</button>
+                    </div>
+	            </div>
+	    </div>
+        <div class="footer"><p>&copy; 2017 Spotlight -All Rights Reserved </p></div>
+     </body>
+</html>
